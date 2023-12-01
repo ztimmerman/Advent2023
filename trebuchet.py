@@ -31,7 +31,7 @@ def scanLine(line):
 
 
 calibrationSum=0
-with open("C:/Users/xploy/Documents/Hobby/Python/Advent2023",'r') as f:
+with open("./Documents/Hobby/Python/Advent2023/trebuchet.txt",'r') as f:
     lines = f.readlines()
 for x in range(len(lines)):
     # line = [int(y) for y in lines[x] if y.isdigit()]
